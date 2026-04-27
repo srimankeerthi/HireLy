@@ -1,22 +1,84 @@
-# Job Finder (minimal scaffold)
+# Hirely – Job Finder Web App
 
-This is a minimal job-finding website scaffold built with Express, EJS and SQLite (better-sqlite3).
+Hirely is a minimal and efficient job finder web application that enables users to browse job listings, post new opportunities, and access job data through a simple and intuitive interface.
 
-Quick start:
+---
 
-1. cd into the project folder
-2. npm install
-3. npm start
+## Features
 
-The server listens on port 3000 by default.
+* Browse all job listings
+* Add new job postings
+* View individual job details
+* REST API for job data
+* Fast and lightweight backend
 
-Files:
-- `server.js` — Express app and routes
-- `db.js` — SQLite DB initialization and access
-- `views/` — EJS templates
-- `public/` — static assets
+---
 
-Next steps:
-- Add search and filters
-- Add authentication for employers
-- Add pagination and file uploads
+## Tech Stack
+
+* Backend: Node.js, Express
+* Frontend: EJS Templates
+* Database: SQLite (better-sqlite3)
+
+---
+
+## Project Structure
+
+```
+├── server.js        # Express server and routes
+├── db.js            # Database setup and queries
+├── views/           # EJS templates
+├── public/          # Static files
+├── package.json
+```
+
+---
+
+## Getting Started
+
+### Clone the repository
+
+```
+git clone https://github.com/your-username/hirely.git
+cd hirely
+```
+
+### Install dependencies
+
+```
+npm install
+```
+
+### Run the application
+
+```
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## API Endpoints
+
+| Method | Endpoint      | Description   |
+| ------ | ------------- | ------------- |
+| GET    | /api/jobs     | Get all jobs  |
+| GET    | /api/jobs/:id | Get job by ID |
+
+---
+
+## Future Improvements
+
+* User authentication
+* Search and filtering
+* Job application functionality
+* UI enhancements
+* Deployment and scaling
+
+---
+
+## Author
+
+Keerthi
+
